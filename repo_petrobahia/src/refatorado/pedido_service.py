@@ -1,4 +1,6 @@
+"""Módulo de Serviço responsável pela orquestração do pedido e aplicação de regras de negócio."""
 from typing import Dict, Optional
+
 from refatorado.preco_calculadora import PrecoCalculadora
 
 

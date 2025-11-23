@@ -1,5 +1,6 @@
 from legacy.preco_calculadora import calcular_preco
 
+
 def processar_pedido(p):
     prod = p.get("produto")
     qtd = p.get("qtd")

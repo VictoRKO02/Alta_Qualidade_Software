@@ -1,8 +1,15 @@
-from refatorado.pedido_service import PedidoService
+"""
+Ponto de entrada principal para o processamento de pedidos e clientes
+da PetroBahia.
+"""
 from refatorado.cliente_service import ClienteService
+from refatorado.pedido_service import PedidoService
 
 
 def main():
+    """
+    Orquestra o cadastro de clientes e o processamento de pedidos.
+    """
     pedidos = [
         {"cliente": "TransLog", "produto": "diesel", "qtd": 1200, "cupom": "MEGA10"},
         {"cliente": "MoveMais", "produto": "gasolina", "qtd": 300, "cupom": None},
