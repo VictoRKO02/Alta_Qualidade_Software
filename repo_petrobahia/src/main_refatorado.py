@@ -1,10 +1,7 @@
-# main_refatorado.py
-
 """
 Ponto de entrada principal para o processamento de pedidos e clientes
 da PetroBahia. Orquestra os serviços e exibe o resultado final.
 """
-
 # isort: organiza as importações em ordem alfabética e por tipo
 from refatorado.cliente_service import ClienteService
 from refatorado.pedido_service import PedidoService
